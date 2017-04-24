@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Questrial|Macondo');
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body
+{
+	background: url('/assets/blurry.jpg');
+	background-size:cover;
+	color: white;
+	margin-left: 30px;
+}
+
+
+body.home
+{
+	background: url('/assets/sand.jpg');
+	background-size:cover;	
+}
+
+.log
+{
+	text-align: right;
+	color: white;
+}
+
+body.Sign_Form
+{
+	background: url('/assets/blurry.jpg');
+	background-size:cover;
+	font-family: 'Questrial', sans-serif;
+   
+}
+
+body.loginform
+{
+	background: url('/assets/blurry.jpg');
+	background-size:cover;
+	font-family: 'Questrial', sans-serif;
+	text-align: center;
+	
+}
+
+body.post_new
+{
+	background: url('/assets/ink.jpg');
+	background-size:cover;
+	margin-left: 50px;
+}
+
+body.post_index
+{
+	background: url('/assets/ink.jpg');
+	background-size:cover;
+}
+body.user_index
+{
+	background: url('/assets/smili.jpg');
+	background-size:cover;
+}
+
+.textarea
+{
+	border-radius: 10px;
+	background-color: whitesmoke;
+	height: 174px;
+    width: 321px;
+}
+
+.home
+{
+	font-family: 'Macondo', cursive;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] 
+{
+color: black;
+width: 25%;
+border: 1px solid #E6E6E6;
+border-radius: 10px; 
+background-color: whitesmoke;
+ /*background: transparent */
+height: 40px;
+margin: 6px auto;
+padding-right: 40px;
+text-indent: 10px;
+}
+
+.button_signup
+ {
+	border: 1px solid #0a3c59;
+   background: #3e779d;
+   padding: 13px 15px;
+   color: #e6e6e6;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   vertical-align: middle;
+   -webkit-border-radius: 6px;
+   margin-left: 3cm;
+ }
+
+.button_login
+{
+	border: 1px solid #0a3c59;
+   background: #3e779d;
+   padding: 13px 15px;
+   color: #e6e6e6;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   vertical-align: middle;
+   -webkit-border-radius: 6px;
+   margin-left: 0.2cm;
+	}
+
+.button 
+{
+	border: 1px solid #0a3c59;
+   background: #3e779d;
+   padding: 13px 15px;
+   color: #e6e6e6;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   vertical-align: middle;
+   -webkit-border-radius: 6px;
+   margin-left: 3cm;
+	}
+

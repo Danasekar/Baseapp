@@ -1,0 +1,23 @@
+
+<body class = "post_index">
+<center><h1>DASHBOARD</h1></center>
+
+<div align="right">
+  <h2><%= link_to "Add a New Note", new_post_path, style: 'color:#FFFFFF' %></h2>
+</div>
+<% @posts.each do |p| %>
+<p>
+	<h1><%=  link_to p.title, post_path(p), style: 'color:#FFFFFF' %></h1>
+	 <%= p.content %>
+</p>
+
+
+	 <%= link_to "Edit", edit_post_path(p), style: 'color:#FFFFFF' %> |
+	 <%=  link_to "Delete", p, style: 'color:#FFFFFF', :method => :delete %>
+	<hr>
+
+
+<% end %>
+</body>
+ 
+ <%# <%= link_to "home", '/home'  %> 
